@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@theme {
+  --color-moon_darkblue: #333652;
+  --color-moon_lightblue: #007afe;
+  --color-moon_yellow: #f9d02b;
+  --color-moon_night: #212121;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
