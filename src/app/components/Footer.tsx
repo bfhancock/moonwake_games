@@ -9,18 +9,18 @@ const Footer = () => {
       <div className="w-full flex justify-center items-center gap-[25px] md:gap-[50px] text-moon_night mt-6">
         <a
           href="https://discord.com/invite/yBE58rCxHx"
-          className="relative group"
+          className="relative group w-[106px]"
           target="_blank"
         >
           <div className="w-full relative h-full flex items-center justify-center bg-white z-50 rounded-[5px] group-hover:shadow-lg group-hover:-translate-y-0.5 px-2 py-1 transition-all duration-300 ease-in-out group-active:translate-y-0 group-active:shadow-none gap-2.5">
             <DiscordIcon />
             Discord
           </div>
-          <span className="w-[96%] h-[96%] absolute left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%] bg-[#5865F2] z-0 group-hover:w-[calc(100%+2px)] group-hover:h-[calc(100%+2px)] transition-all duration-200 ease-in-out rounded-[5px] group-active:w-[97%] group-active:h-[97%]" />
+          <span className="w-[96%] h-[96%] absolute left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%] bg-[#5865F2] z-0 group-hover:w-[calc(100%+4px)] group-hover:h-[calc(100%+2px)] transition-all duration-200 ease-in-out rounded-[5px] group-active:w-[97%] group-active:h-[97%]" />
         </a>
         <a
           href="https://www.instagram.com/moonwakegames"
-          className="relative group"
+          className="relative group w-[122px]"
           target="_blank"
         >
           <div className="w-full gap-2.5 relative h-full flex items-center justify-center bg-white z-50 rounded-[5px] group-hover:shadow-lg group-hover:-translate-y-0.5 px-2 py-1 transition-all duration-300 ease-in-out group-active:translate-y-0 group-active:shadow-none">
@@ -31,7 +31,7 @@ const Footer = () => {
         </a>
         <a
           href="https://www.facebook.com/people/Moonwake-Games/100089456794453/?mibextid=LQQJ4d"
-          className="relative group"
+          className="relative group w-[122px]"
           target="_blank"
         >
           <div className="w-full gap-2.5 relative h-full flex items-center justify-center bg-white z-50 rounded-[5px] group-hover:shadow-lg group-hover:-translate-y-0.5 px-2 py-1 transition-all duration-300 ease-in-out group-active:translate-y-0 group-active:shadow-none">

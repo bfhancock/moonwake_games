@@ -29,22 +29,22 @@ const Header = () => {
       </div>
       <div className="flex items-center justify-end gap-[50px] w-full text-moon_night text-lg">
         <Link href="/" className="relative group">
-          <div className="w-full relative h-full flex items-center justify-center bg-white z-50 rounded-[5px] group-hover:shadow-lg group-hover:-translate-y-0.5 px-2 py-1 transition-all duration-300 ease-in-out group-active:translate-y-0 group-active:shadow-none">
+          <div className="w-[64px] relative h-full flex items-center justify-center bg-white z-50 rounded-[5px] group-hover:shadow-lg group-hover:-translate-y-0.5 px-2 py-1 transition-all duration-300 ease-in-out group-active:translate-y-0 group-active:shadow-none">
             <p>Home</p>
           </div>
-          <span className="w-[97%] h-[97%] absolute left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%] bg-moon_yellow z-0 group-hover:w-[calc(100%+2px)] group-hover:h-[calc(100%+2px)] transition-all duration-200 ease-in-out rounded-[5px] group-active:w-[97%] group-active:h-[97%]" />
+          <span className="w-[97%] h-[97%] absolute left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%] bg-moon_yellow z-0 group-hover:w-[calc(100%+4px)] group-hover:h-[calc(100%+2px)] transition-all duration-200 ease-in-out rounded-[5px] group-active:w-[97%] group-active:h-[97%]" />
         </Link>
         <Link href="/calendar" className="relative group">
-          <div className="w-full relative h-full flex items-center justify-center bg-white z-50 rounded-[5px] group-hover:shadow-lg group-hover:-translate-y-0.5 px-2 py-1 transition-all duration-300 ease-in-out group-active:translate-y-0 group-active:shadow-none">
+          <div className="w-[92px] relative h-full flex items-center justify-center bg-white z-50 rounded-[5px] group-hover:shadow-lg group-hover:-translate-y-0.5 px-2 py-1 transition-all duration-300 ease-in-out group-active:translate-y-0 group-active:shadow-none">
             <p>Calendar</p>
           </div>
-          <span className="w-[97%] h-[97%] absolute left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%] bg-moon_yellow z-0 group-hover:w-[calc(100%+2px)] group-hover:h-[calc(100%+2px)] transition-all duration-200 ease-in-out rounded-[5px] group-active:w-[97%] group-active:h-[97%]" />
+          <span className="w-[97%] h-[97%] absolute left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%] bg-moon_yellow z-0 group-hover:w-[calc(100%+4px)] group-hover:h-[calc(100%+2px)] transition-all duration-200 ease-in-out rounded-[5px] group-active:w-[97%] group-active:h-[97%]" />
         </Link>
         <Link href="/shop-policys" className="relative group">
-          <div className="w-full relative h-full flex items-center justify-center bg-white z-50 rounded-[5px] group-hover:shadow-lg group-hover:-translate-y-0.5 px-2 py-1 transition-all duration-300 ease-in-out group-active:translate-y-0 group-active:shadow-none">
+          <div className="w-[128px] relative h-full flex items-center justify-center bg-white z-50 rounded-[5px] group-hover:shadow-lg group-hover:-translate-y-0.5 px-2 py-1 transition-all duration-300 ease-in-out group-active:translate-y-0 group-active:shadow-none">
             <p>Store Policies</p>
           </div>
-          <span className="w-[97%] h-[97%] absolute left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%] bg-moon_yellow z-0 group-hover:w-[calc(100%+2px)] group-hover:h-[calc(100%+2px)] transition-all duration-200 ease-in-out rounded-[5px] group-active:w-[97%] group-active:h-[97%]" />
+          <span className="w-[97%] h-[97%] absolute left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%] bg-moon_yellow z-0 group-hover:w-[calc(100%+4px)] group-hover:h-[calc(100%+2px)] transition-all duration-200 ease-in-out rounded-[5px] group-active:w-[97%] group-active:h-[97%]" />
         </Link>
       </div>
     </div>
