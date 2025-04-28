@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
-import Footer from "./Footer";
-import Header from "./Header";
+import Footer from "./ui/Footer";
+import Header from "./ui/Header";
 import { cn } from "../../../utils/twMerge";
 
 type Props = {

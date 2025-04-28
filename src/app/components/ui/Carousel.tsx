@@ -1,8 +1,8 @@
 "use client";
 import UseEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
-import MTGCasualCommander from "../../../public/MTGCasualCommander.jpg";
-import { cn } from "../../../utils/twMerge";
+import MTGCasualCommander from "../../../../public/MTGCasualCommander.jpg";
+import { cn } from "../../../../utils/twMerge";
 // import Autoplay from "embla-carousel-autoplay";
 
 type Props = {

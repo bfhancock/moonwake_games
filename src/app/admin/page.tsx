@@ -1,5 +1,7 @@
+import Layout from "../components/Layout";
+
 const Admin = () => {
-  return <div>admin</div>;
+  return <Layout>admin</Layout>;
 };
 
 export default Admin;
