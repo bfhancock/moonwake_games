@@ -6,8 +6,8 @@ import Menu from "./Menu";
 
 const Header = () => {
   return (
-    <div className="w-full max-w-[1440px] flex items-center justify-between gap-[15px] md:gap-0 px-[15px] md:px-[25px] mt-[25px] md:mt-[35px]">
-      <div className="w-full hidden md:flex items-center gap-[15px]">
+    <div className="w-full max-w-[1440px] h-[120px] flex items-center justify-between gap-[15px] md:gap-0 px-[15px] md:px-[25px] py-[25px] md:py-[35px] z-50">
+      <div className="w-full hidden md:flex items-center gap-[15px] z-50">
         <Link href="/">
           <Image
             src={MoonwakeLogo}
@@ -31,7 +31,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="hidden md:flex items-center justify-end gap-[25px] lg:gap-[50px] w-full text-moon_night text-lg">
+      <div className="hidden md:flex items-center justify-end gap-[25px] lg:gap-[50px] w-full text-moon_night text-lg z-50">
         <Link href="/" className="relative group">
           <div className="w-[64px] relative h-full flex items-center justify-center bg-white z-50 rounded-[5px] group-hover:shadow-lg group-hover:-translate-y-0.5 px-2 py-1 transition-all duration-300 ease-in-out group-active:translate-y-0 group-active:shadow-none group-active:duration-[25ms]">
             <p>Home</p>
@@ -52,7 +52,7 @@ const Header = () => {
         </Link>
       </div>
 
-      <div className="flex md:hidden justify-end items-center gap-[10px] w-full">
+      <div className="flex md:hidden justify-end items-center gap-[10px] w-full z-50">
         <Link href="/">
           <Image
             src={MoonwakeLogo}
@@ -60,7 +60,7 @@ const Header = () => {
             className="w-[65px] min-[460px]:max-w-[128px]"
           />
         </Link>
-        <div className="w-full flex justify-between items-center">
+        <div className="w-full flex justify-between items-center z-50">
           <div className="h-full flex flex-col justify-center items-start mr-[15px] min-[460px]:mr-[25px]">
             <Link
               href="/"

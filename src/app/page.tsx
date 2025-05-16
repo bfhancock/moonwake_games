@@ -4,7 +4,7 @@ import Carousel from "./components/ui/Carousel";
 const Home = () => {
   return (
     <Layout>
-      <div className="relative flex flex-col items-center w-full py-[35px]">
+      <div className="relative flex flex-col items-center w-full pb-[35px]">
         <video
           className="w-full min-w-[1600px] absolute z-0"
           loop
