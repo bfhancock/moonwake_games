@@ -1,11 +1,14 @@
 "use client";
 
-import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 
-const Menu = () => {
-  const [open, setOpen] = useState<"open" | "closed">("closed");
-
+const Menu = ({
+  open,
+  setOpen,
+}: {
+  open: "open" | "closed";
+  setOpen: (open: "open" | "closed") => void;
+}) => {
   return (
     <>
       <button
@@ -65,7 +68,7 @@ const Menu = () => {
               animate={{ x: 10 }}
               exit={{ x: window.innerWidth }}
               transition={{ duration: 0.8, type: "spring", bounce: 0.15 }}
-              className="absolute top-0 right-0 h-12 w-[300px] flex items-center pl-5 bg-moon_darkblue border border-moon_yellow z-50 rounded-bl-lg"
+              className="absolute top-0 right-0 h-[65px] w-[300px] flex items-center pl-5 bg-moon_darkblue border border-moon_yellow z-50 rounded-bl-lg"
             >
               Home
             </motion.a>
@@ -79,7 +82,7 @@ const Menu = () => {
                 type: "spring",
                 bounce: 0.15,
               }}
-              className="absolute top-[47px] right-0 h-12 w-[275px] flex items-center pl-5 bg-moon_darkblue border border-moon_yellow z-50 rounded-bl-lg"
+              className="absolute top-[64px] right-0 h-[65px] w-[275px] flex items-center pl-5 bg-moon_darkblue border border-moon_yellow z-50 rounded-bl-lg"
             >
               Calendar
             </motion.a>
@@ -93,7 +96,7 @@ const Menu = () => {
                 type: "spring",
                 bounce: 0.15,
               }}
-              className="absolute top-[94px] right-0 h-12 w-[250px] flex items-center pl-5 bg-moon_darkblue border border-moon_yellow z-50 rounded-bl-lg"
+              className="absolute top-[128px] right-0 h-[65px] w-[250px] flex items-center pl-5 bg-moon_darkblue border border-moon_yellow z-50 rounded-bl-lg"
             >
               Store Policies
             </motion.a>
