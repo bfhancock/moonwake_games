@@ -3,12 +3,9 @@ import Image from "next/image";
 import MoonwakeLogo from "../../../../public/moonwake_logo.png";
 import Link from "next/link";
 import Menu from "./Menu";
-import { useState } from "react";
 import { cn } from "../../../../utils/twMerge";
 
 const Header = () => {
-  const [menuOpen, setMenuOpen] = useState<"open" | "closed">("closed");
-
   return (
     <>
       <div
@@ -84,7 +81,7 @@ const Header = () => {
                 </a>
               </p>
             </div>
-            <Menu open={menuOpen} setOpen={setMenuOpen} />
+            <Menu />
           </div>
         </div>
       </div>
