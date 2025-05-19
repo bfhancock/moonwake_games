@@ -25,9 +25,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div
+          id="wrapping div"
+          className="overflow-x-hidden relative overflow-y-hidden"
+        >
+          {children}
+        </div>
       </body>
     </html>
   );

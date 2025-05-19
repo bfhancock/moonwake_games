@@ -11,10 +11,7 @@ type Props = {
 const Layout = ({ children, className }: Props) => {
   return (
     <main
-      className={cn(
-        "w-full flex flex-col items-center bg-white overflow-hidden",
-        className
-      )}
+      className={cn("w-full flex flex-col items-center bg-white", className)}
     >
       <Header />
       {children}
