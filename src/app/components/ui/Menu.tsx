@@ -1,6 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "motion/react";
+import { useEffect, useState } from "react";
 
 const Menu = ({
   open,
@@ -9,6 +10,12 @@ const Menu = ({
   open: "open" | "closed";
   setOpen: (open: "open" | "closed") => void;
 }) => {
+  const [pageHeight, setPageHeight] = useState(0);
+
+  useEffect(() => {
+    setPageHeight(document.documentElement.scrollHeight);
+  }, []);
+
   return (
     <>
       <button
@@ -56,12 +63,12 @@ const Menu = ({
             animate={open}
             initial={{ opacity: 0, height: 0 }}
             variants={{
-              open: { opacity: 1, height: window.innerHeight },
+              open: { opacity: 1, height: pageHeight },
             }}
             exit={{ opacity: 0, height: 0, transition: { delay: 0.1 } }}
             transition={{ duration: 0.4 }}
             onClick={() => setOpen("closed")}
-            className="fixed w-full bg-black/60 h-full top-[120px] right-0 z-40"
+            className="absolute w-full bg-black/60 h-full top-[120px] right-0 z-40"
           >
             <motion.a
               initial={{ x: window.innerWidth }}
