@@ -71,6 +71,7 @@ const Menu = () => {
               exit={{ x: window.innerWidth }}
               transition={{ duration: 0.8, type: "spring", bounce: 0.1 }}
               href="/"
+              onClick={(e) => e.stopPropagation()}
               className="absolute top-0 right-0 h-[65px] w-[300px] flex items-center pl-5 bg-moon_darkblue border border-moon_yellow z-50 rounded-bl-lg text-white border-r-0"
             >
               Home
@@ -86,6 +87,7 @@ const Menu = () => {
                 bounce: 0.1,
               }}
               href="/calendar"
+              onClick={(e) => e.stopPropagation()}
               className="absolute top-[64px] right-0 h-[65px] w-[275px] flex items-center pl-5 bg-moon_darkblue border border-moon_yellow z-50 rounded-bl-lg text-white border-r-0"
             >
               Calendar
@@ -101,6 +103,7 @@ const Menu = () => {
                 bounce: 0.1,
               }}
               href="/shop-policies"
+              onClick={(e) => e.stopPropagation()}
               className="absolute top-[128px] right-0 h-[65px] w-[250px] flex items-center pl-5 bg-moon_darkblue border border-moon_yellow z-50 rounded-bl-lg text-white border-r-0"
             >
               Store Policies
