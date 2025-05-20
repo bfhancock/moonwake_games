@@ -72,7 +72,7 @@ const Menu = () => {
               transition={{ duration: 0.8, type: "spring", bounce: 0.1 }}
               href="/"
               onClick={(e) => e.stopPropagation()}
-              className="absolute top-0 right-0 h-[65px] w-[300px] flex items-center pl-5 bg-moon_darkblue border border-moon_yellow z-50 rounded-bl-lg text-white border-r-0"
+              className="absolute top-0 right-0 h-[65px] w-[300px] flex items-center pl-5 bg-moon_darkblue border border-moon_yellow z-50 rounded-bl-lg text-white border-r-0 active:-translate-x-2.5"
             >
               Home
             </motion.a>
