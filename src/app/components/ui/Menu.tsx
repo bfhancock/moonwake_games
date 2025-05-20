@@ -8,7 +8,7 @@ const Menu = () => {
   const [pageHeight, setPageHeight] = useState(0);
 
   useEffect(() => {
-    setPageHeight(document.documentElement.offsetHeight);
+    setPageHeight(document.documentElement.offsetHeight + 200);
   }, []);
 
   return (
