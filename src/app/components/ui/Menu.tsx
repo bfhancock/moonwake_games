@@ -63,13 +63,14 @@ const Menu = () => {
             exit={{ opacity: 0, height: 0, transition: { delay: 0.1 } }}
             transition={{ duration: 0.4 }}
             onClick={() => setMenuOpen("closed")}
-            className="absolute w-full bg-black/60 h-full top-[120px] right-0 z-40"
+            className="absolute w-full bg-black/60 h-full top-[120px] right-0"
           >
             <motion.a
               initial={{ x: window.innerWidth }}
               animate={{ x: 0 }}
               exit={{ x: window.innerWidth }}
               transition={{ duration: 0.8, type: "spring", bounce: 0.1 }}
+              href="/"
               className="absolute top-0 right-0 h-[65px] w-[300px] flex items-center pl-5 bg-moon_darkblue border border-moon_yellow z-50 rounded-bl-lg text-white border-r-0"
             >
               Home
@@ -84,6 +85,7 @@ const Menu = () => {
                 type: "spring",
                 bounce: 0.1,
               }}
+              href="/calendar"
               className="absolute top-[64px] right-0 h-[65px] w-[275px] flex items-center pl-5 bg-moon_darkblue border border-moon_yellow z-50 rounded-bl-lg text-white border-r-0"
             >
               Calendar
@@ -98,6 +100,7 @@ const Menu = () => {
                 type: "spring",
                 bounce: 0.1,
               }}
+              href="/shop-policies"
               className="absolute top-[128px] right-0 h-[65px] w-[250px] flex items-center pl-5 bg-moon_darkblue border border-moon_yellow z-50 rounded-bl-lg text-white border-r-0"
             >
               Store Policies
