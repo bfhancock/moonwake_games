@@ -10,7 +10,7 @@ const Header = () => {
     <>
       <div
         className={cn(
-          "w-full max-w-[1440px] h-[120px] md:h-auto flex items-center justify-between gap-[15px] md:gap-0 px-[15px] md:px-[25px] py-[25px] md:py-[35px] z-50 bg-white"
+          "w-full max-w-[1440px] h-[120px] md:h-auto flex items-center justify-between gap-[15px] md:gap-0 px-[15px] md:px-[25px] py-[25px] md:py-[35px] z-50 bg-white sm:border-b-0 border-b border-moon_darkblue mb-[25px]"
         )}
       >
         <div className="w-full hidden md:flex items-center gap-[15px] z-50">

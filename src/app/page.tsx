@@ -4,17 +4,8 @@ import Carousel from "./components/ui/Carousel";
 const Home = () => {
   return (
     <Layout>
-      <div className="relative flex flex-col items-center w-full pb-[35px]">
-        <video
-          className="w-full min-w-[1600px] absolute z-0"
-          loop
-          autoPlay
-          preload="auto"
-          muted
-        >
-          <source src="/bgVideo.mp4" type="video/mp4" />
-        </video>
-        <Carousel classname="mt-[50px] z-10 " />
+      <div className="relative flex flex-col items-center w-full pb-[35px] px-[15px]">
+        <Carousel classname="z-10" />
         <div className="w-full max-w-[1340px] flex flex-col items-center mx-auto p-[15px] bg-black/60 z-10 mt-[50px] rounded-2xl">
           <h1 className="text-moon_yellow text-4xl font-semibold text-center">
             Welcome to Moonwake Games
@@ -36,22 +27,7 @@ const Home = () => {
             Hours:
           </h2>
           <p className="text-xl text-moon_yellow font-bold text-center mt-1.5">
-            Monday: 11 AM – 10 PM
-          </p>
-          <p className="text-xl text-moon_yellow font-bold text-center mt-1.5">
-            Tuesday: 11 AM – 10 PM
-          </p>
-          <p className="text-xl text-moon_yellow font-bold text-center mt-1.5">
-            Wednesday: 11 AM – 10 PM
-          </p>
-          <p className="text-xl text-moon_yellow font-bold text-center mt-1.5">
-            Thursday: 11 AM – 10 PM
-          </p>
-          <p className="text-xl text-moon_yellow font-bold text-center mt-1.5">
-            Friday: 11 AM – 10 PM
-          </p>
-          <p className="text-xl text-moon_yellow font-bold text-center mt-1.5">
-            Saturday: 11 AM – 10 PM
+            Monday-Saturday: 11 AM – 10 PM
           </p>
           <p className="text-xl text-moon_yellow font-bold text-center mt-1.5">
             Sunday: 12 PM – 5 PM
